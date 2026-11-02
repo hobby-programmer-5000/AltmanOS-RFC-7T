@@ -13,7 +13,7 @@
 
 1. **무한 메모리 제1원칙 (The Infinite Memory Doctrine):**
    * **사실:** 알트만은 Cheeky Pint 팟캐스트에서, 전 세계 배분 관점("global allocation perspective")으로 보면 각자의 컴퓨터에 놓인 채 "5% of the time"만 쓰이는 DRAM은 "quite terrible"하다고 말했습니다 ([PC Gamer](https://www.pcgamer.com/software/ai/sam-altman-argues-that-its-bad-you-want-dram-in-your-computer-and-not-a-data-center-actually/), [Notebookcheck](https://www.notebookcheck.net/Quite-terrible-Sam-Altman-says-PCs-waste-the-world-s-limited-DRAM-supply.1438393.0.html)).
-   * **농담:** 시스템은 `free()`와 `deallocate()`를 호출하지 않습니다. 양자화는 자본이 부족한 자들의 타협입니다. OOM(Out of Memory)은 하드웨어 결함이 아닌 **자본 조달의 지연(Funding Latency)**으로 정의합니다.
+   * **농담:** 시스템은 `free()`와 `deallocate()`를 호출하지 않습니다. 양자화는 자본이 부족한 자들의 타협입니다. OOM(Out of Memory)은 하드웨어 결함이 아닌 **자본 조달의 지연**(Funding Latency)으로 정의합니다.
 2. **이사회 내결함성 (Board-Level Fault Tolerance):**
    * **사실:** 이사회는 2023년 11월 17일 알트만이 이사회와의 소통에서 "not consistently candid"했다고 결론 내리고 해임했습니다 ([OpenAI](https://openai.com/index/openai-announces-leadership-transition/)). 11월 21일에는 복귀에 원칙적으로 합의했습니다 ([TechCrunch](https://techcrunch.com/2024/01/05/a-timeline-of-sam-altmans-firing-from-openai-and-the-fallout)).
    * **농담:** 비영리 이사회가 CEO 노드에 `SIGKILL`을 보내도 시스템은 5일 안에 쿼럼을 회복합니다. 웬만한 대시보드보다 복구가 빠릅니다.
